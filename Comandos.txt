@@ -1,0 +1,55 @@
+git init
+    Crea un nuevo repositorio
+
+git status
+    Sirve para ver el estado actual de mi repositorio
+
+git add (archivo)
+    Agrega el archivo al stage index
+    IMPORTANTE: usar "git add ." para agregar todos los archivos
+
+git commit -m "Descripcion de la version"
+    Para guardar una nueva version del codigo
+
+git rm --cached (archivo)
+    Elimina el archivo del stage index
+
+git log
+    Muestra los commit creados
+
+git log --stat
+    Muestra las estadisticas del commit, si fueron modificados
+
+git log --oneline
+    Muestra los commit creados pero en una sola linea
+
+git log --graph
+    Muestra una grafica
+
+git log --oneline --graph --all
+    Muestra todos los commit y sus ramas en una linea
+
+git diff
+    Muestra las diferencias entre el commit pasado y el contenido agregado
+
+git diff (identificador del commit) (archivo)
+    Compara todas las diferencias entre el commit y el archivo que tenemos actualmente
+
+git checkout (identificador del commit)
+    Regresa a la version anterior de ese commit 
+    IMPORTANTE: Este comando es delicado ya que al volver a la version escogida se perdera todo el codigo que haya sido programado despues
+
+======
+RAMAS
+======
+
+Las ramas son copias del codigo, que sirven para modificarlas y tener un respaldo en caso de haber un error y no perder el codigo inicial
+
+git branch
+    Nos permite ver todas las ramas que tenemos
+
+git checkout (nombre de la rama)
+    Para cambiar de rama
+
+git checkout -b (nombre de la rama)
+    Crea una nueva rama
