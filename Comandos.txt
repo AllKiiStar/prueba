@@ -53,3 +53,6 @@ git checkout (nombre de la rama)
 
 git checkout -b (nombre de la rama)
     Crea una nueva rama
+
+git merge (rama)
+    Junta el contenido de la rama descrita a la rama en la que con encontramos actualmente
